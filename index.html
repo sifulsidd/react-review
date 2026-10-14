@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <div id="app"></div>
+    <script type="text/javascript">
+        // Select the div element with 'app' id
+        const app = document.getElementById('app');
+        
+        // create an h1 element
+        const header = document.createElement('h1');
+        
+        // create a text node for the H1 element
+        const text = "Develop. Preview. Ship.";
+        const headerContent = document.createTextNode(text);
+        
+        // append text to header
+        header.appendChild(headerContent);
+
+        // put h1 eleemnt inside of the div 
+        app.appendChild(header);
+
+    </script>
+</body>
+</html>
